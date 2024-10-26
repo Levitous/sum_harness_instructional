@@ -1,0 +1,6 @@
+/home/pi18/repos/sum_harness_instructional/build/CMakeFiles/benchmark.dir
+/home/pi18/repos/sum_harness_instructional/build/CMakeFiles/sum_direct.dir
+/home/pi18/repos/sum_harness_instructional/build/CMakeFiles/sum_vector.dir
+/home/pi18/repos/sum_harness_instructional/build/CMakeFiles/sum_indirect.dir
+/home/pi18/repos/sum_harness_instructional/build/CMakeFiles/edit_cache.dir
+/home/pi18/repos/sum_harness_instructional/build/CMakeFiles/rebuild_cache.dir

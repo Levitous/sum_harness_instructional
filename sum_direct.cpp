@@ -8,10 +8,15 @@
 
 
 
-void 
+void
 setup(int64_t N, uint64_t A[])
 {
    printf(" inside direct_sum problem_setup, N=%lld \n", N);
+
+   // Given that the array A[] is not used by the direct sum
+   // algorithm, no true initialization is necessary.
+
+   return;
 }
 
 int64_t
@@ -19,6 +24,12 @@ sum(int64_t N, uint64_t A[])
 {
    printf(" inside direct_sum perform_sum, N=%lld \n", N);
 
-   return 0;
+   int64_t sum = 0;
+   for(int64_t i = 0; i < N; i++)
+   {
+      sum += i;
+   }
+
+   return sum;
 }
 
