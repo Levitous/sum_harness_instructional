@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/pi18/repos/sum_harness_instructional/sum_direct.cpp" "CMakeFiles/sum_direct.dir/sum_direct.cpp.o" "gcc" "CMakeFiles/sum_direct.dir/sum_direct.cpp.o.d"
+  "/global/homes/l/levitous/repo/sum_harness_instructional/sum_direct.cpp" "CMakeFiles/sum_direct.dir/sum_direct.cpp.o" "gcc" "CMakeFiles/sum_direct.dir/sum_direct.cpp.o.d"
   )
 
 # Targets to which this target links.

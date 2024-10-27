@@ -46,8 +46,9 @@ int main(int argc, char** argv)
       // insert your end timer code here, and print out elapsed time for this problem size
       auto end = std::chrono::high_resolution_clock::now();
       long long durationNano = std::chrono::duration_cast<std::chrono::nanoseconds>(end - start).count();
+      long double durationMilli = ((long double)durationNano)/1000000;
 
-      printf("Sum result = %lld \nDuration in nanoseconds: %lld",t,durationNano);
+      printf("Sum result = %lld \nDuration in milliseconds: %Lf\n\n",t,durationMilli);
 
    } // end loop over problem sizes
 }
